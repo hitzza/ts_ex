@@ -6,7 +6,7 @@ button.addEventListener("click", () => {
 */
 
 function sum(a:number, b:number, args:number[]){
-    let element = 0;
+    let element :number = 0;
     for (let index = 0; index < args.length; index++) {
         element += args[index];
         
